@@ -1,9 +1,20 @@
 """
-ELIZA v0.3 - AI Character Sandbox
+ELIZA v0.4.1 - AI Character Sandbox
 Named in honor of ELIZA (1966), the first chatbot, and the ELIZA effect.
 
 Simple character-based chat system - one conversation per character.
+## 🙏 Credits
 
+**Created by:** [Chris P/BarbarossaKad]
+
+**With significant assistance from:** Claude (Anthropic AI) for architecture design, 
+code implementation, and development guidance.
+
+**Inspired by:**
+- ELIZA (1966) by Joseph Weizenbaum
+- Character.AI
+- Chattee
+- Tavern AI / SillyTavern
 Requirements:
 pip install gradio requests pillow
 """
@@ -16,7 +27,7 @@ from datetime import datetime
 
 # ============ CONFIGURATION ============
 
-VERSION = "0.3"
+VERSION = "0.4.1"
 APP_NAME = "ELIZA"
 
 LLM_BACKENDS = {
